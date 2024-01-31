@@ -12,6 +12,273 @@
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#AcrylicPainting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Analog"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArtMovement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArtPiece"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Author"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BaseMaterial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BigMuseum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClaySculpture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CopperSculpture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DedicatedMuseum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Digital"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diptych"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fresco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ImportantMuseum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InkPainting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MarbleSculpture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Material"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MediumMuseum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mural"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Museum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OilPainting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OnCanvas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OnPaper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Painting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PaintingMaterial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PaintingOnWood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhotographicMaterial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Photography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pigment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PlasterSculpture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Polyptych"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PolyvalentMuseum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PopularAuthor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SculptingMaterial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sculpture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SmallMuseum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StoneSculpture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Triptych"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WatercolorPainting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WoodSculpture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Renaissance"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AcrylicPainting"/>
+        <Class IRI="#Painting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Analog"/>
+        <Class IRI="#Photography"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BaseMaterial"/>
+        <Class IRI="#PaintingMaterial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BigMuseum"/>
+        <Class IRI="#Museum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClaySculpture"/>
+        <Class IRI="#Sculpture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CopperSculpture"/>
+        <Class IRI="#Sculpture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DedicatedMuseum"/>
+        <Class IRI="#Museum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Digital"/>
+        <Class IRI="#Photography"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diptych"/>
+        <Class IRI="#ArtPiece"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fresco"/>
+        <Class IRI="#Painting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ImportantMuseum"/>
+        <Class IRI="#Museum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InkPainting"/>
+        <Class IRI="#Painting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MarbleSculpture"/>
+        <Class IRI="#Sculpture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediumMuseum"/>
+        <Class IRI="#Museum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mural"/>
+        <Class IRI="#Painting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OilPainting"/>
+        <Class IRI="#Painting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OnCanvas"/>
+        <Class IRI="#Painting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OnPaper"/>
+        <Class IRI="#Painting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Painting"/>
+        <Class IRI="#ArtPiece"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PaintingMaterial"/>
+        <Class IRI="#Material"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PaintingOnWood"/>
+        <Class IRI="#Painting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhotographicMaterial"/>
+        <Class IRI="#Material"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Photography"/>
+        <Class IRI="#ArtPiece"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pigment"/>
+        <Class IRI="#PaintingMaterial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlasterSculpture"/>
+        <Class IRI="#Sculpture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Polyptych"/>
+        <Class IRI="#ArtPiece"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PolyvalentMuseum"/>
+        <Class IRI="#Museum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PopularAuthor"/>
+        <Class IRI="#Author"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SculptingMaterial"/>
+        <Class IRI="#Material"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sculpture"/>
+        <Class IRI="#ArtPiece"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SmallMuseum"/>
+        <Class IRI="#Museum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StoneSculpture"/>
+        <Class IRI="#Sculpture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triptych"/>
+        <Class IRI="#ArtPiece"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WatercolorPainting"/>
+        <Class IRI="#Painting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WoodSculpture"/>
+        <Class IRI="#Sculpture"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#ArtMovement"/>
+        <NamedIndividual IRI="#Renaissance"/>
+    </ClassAssertion>
 </Ontology>
 
 
