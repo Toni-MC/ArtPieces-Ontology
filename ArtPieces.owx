@@ -34,10 +34,13 @@
         <Class IRI="#BigMuseum"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#BronzeSculpture"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#ClaySculpture"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#CopperSculpture"/>
+        <Class IRI="#ComposedArtPiece"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DedicatedMuseum"/>
@@ -59,6 +62,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#MarbleSculpture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Masterpiece"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Material"/>
@@ -91,10 +97,10 @@
         <Class IRI="#PaintingOnWood"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#PhotographicMaterial"/>
+        <Class IRI="#Photograph"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Photography"/>
+        <Class IRI="#PhotographicMaterial"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Pigment"/>
@@ -107,9 +113,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#PolyvalentMuseum"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#PopularAuthor"/>
     </Declaration>
     <Declaration>
         <Class IRI="#SculptingMaterial"/>
@@ -133,15 +136,450 @@
         <Class IRI="#WoodSculpture"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#captureOn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#composedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#composes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contains"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#createdBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#creates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#exposes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isExposedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#paintedOn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#paintedWith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#sculptedWith"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Acrylic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anonymous"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Antiluna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Autoretrato_sorolla"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bandinelli"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bernardo_Daddi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bronze"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Canvas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Christian_Franzen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Clay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Clotilde_y_su_nieto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Diptico_de_la_Anunciacion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Diptico_de_la_Anunciacion_Arcangel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Diptico_de_la_Anunciacion_Virgen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dome_In_Hermita_San_Antonio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dos_viejos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dos_viejos_comiendo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Duelo_a_garrotazos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Edward_Hopper"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#El_pintor_en_plena_faena"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Elefante_Hermita_San_Baudelio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Emil_Nolde"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Esclavo_agonizante"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Eudald_Serra"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fantasía_moral"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Figura_Eudald_Serra"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Franciso_de_Goya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fresco1_In_Hermita_San_Antonio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fresco2_In_Hermita_San_Antonio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fresco4_In_Hermita_San_Antonio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Group_of_Frescos_In_Hermita_San_Antonio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hermita_De_San_Antonio_De_La_Florida"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hieronymus_Bosch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hotel_room"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ink"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#La_Cucifixión"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#La_extracción_de_la_piedra_de_la_locura"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Marble"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mesa_de_los_Pecados_Capitales"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Museo_Reina_Sofia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Museo_Sorolla"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Museo_Thyssen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Museo_del_Prado"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Neptuno_135AC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nuestra_señora_anunciacion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paper"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paseo_a_la_orilla_del_mar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Perros_en_traílla"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pinot_Gallicio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Plaster"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PlasterWall"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Red_clouds"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Renaissance"/>
     </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rey_Godo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saturno_devorando_a_su_hijo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sorolla"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Garden_of_Earthly_Delights"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Garden_of_Earthly_Delights_EARTH"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Garden_of_Earthly_Delights_EDEN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Garden_of_Earthly_Delights_HELL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#This_smells_of_magic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Venus_Bandinelli"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wall"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Watercolor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wood"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Yves_Clain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#photographic_film"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pixel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Árbol_seco_y_vista_lateral_de_la_Casa_Lombard"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#AcrylicPainting"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#paintedWith"/>
+            <NamedIndividual IRI="#Acrylic"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Analog"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#captureOn"/>
+            <NamedIndividual IRI="#photographic_film"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#BigMuseum"/>
+        <ObjectMinCardinality cardinality="15">
+            <ObjectProperty IRI="#exposes"/>
+            <Class IRI="#ArtPiece"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#BronzeSculpture"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#sculptedWith"/>
+            <NamedIndividual IRI="#Bronze"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ClaySculpture"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#sculptedWith"/>
+            <NamedIndividual IRI="#Clay"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ComposedArtPiece"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#composedBy"/>
+            <Class IRI="#ArtPiece"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#DedicatedMuseum"/>
+        <ObjectUnionOf>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#exposes"/>
+                <Class IRI="#Painting"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#exposes"/>
+                <Class IRI="#Photograph"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#exposes"/>
+                <Class IRI="#Sculpture"/>
+            </ObjectAllValuesFrom>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Digital"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#captureOn"/>
+            <NamedIndividual IRI="#pixel"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Fresco"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#paintedOn"/>
+            <NamedIndividual IRI="#PlasterWall"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ImportantMuseum"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#exposes"/>
+            <Class IRI="#Masterpiece"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#InkPainting"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#paintedWith"/>
+            <NamedIndividual IRI="#Ink"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MarbleSculpture"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#sculptedWith"/>
+            <NamedIndividual IRI="#Marble"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MediumMuseum"/>
+        <ObjectMinCardinality cardinality="6">
+            <ObjectProperty IRI="#exposes"/>
+            <Class IRI="#ArtPiece"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Mural"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#paintedOn"/>
+            <NamedIndividual IRI="#Wall"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#OilPainting"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#paintedWith"/>
+            <NamedIndividual IRI="#Oil"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#OnCanvas"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#paintedOn"/>
+            <NamedIndividual IRI="#Canvas"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#OnPaper"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#paintedOn"/>
+            <NamedIndividual IRI="#Paper"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PaintingOnWood"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#paintedOn"/>
+            <NamedIndividual IRI="#Wood"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PlasterSculpture"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#sculptedWith"/>
+            <NamedIndividual IRI="#Plaster"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PolyvalentMuseum"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#exposes"/>
+            <Class IRI="#Painting"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PolyvalentMuseum"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#exposes"/>
+            <Class IRI="#Photograph"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PolyvalentMuseum"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#exposes"/>
+            <Class IRI="#Sculpture"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SmallMuseum"/>
+        <ObjectMinCardinality cardinality="5">
+            <ObjectProperty IRI="#exposes"/>
+            <Class IRI="#ArtPiece"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#StoneSculpture"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#sculptedWith"/>
+            <NamedIndividual IRI="#Stone"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#WatercolorPainting"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#paintedWith"/>
+            <NamedIndividual IRI="#Watercolor"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#WoodSculpture"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#sculptedWith"/>
+            <NamedIndividual IRI="#Wood"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
     <SubClassOf>
         <Class IRI="#AcrylicPainting"/>
         <Class IRI="#Painting"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Analog"/>
-        <Class IRI="#Photography"/>
+        <Class IRI="#Photograph"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BaseMaterial"/>
@@ -152,12 +590,16 @@
         <Class IRI="#Museum"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#BronzeSculpture"/>
+        <Class IRI="#Sculpture"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#ClaySculpture"/>
         <Class IRI="#Sculpture"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#CopperSculpture"/>
-        <Class IRI="#Sculpture"/>
+        <Class IRI="#ComposedArtPiece"/>
+        <Class IRI="#ArtPiece"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DedicatedMuseum"/>
@@ -165,11 +607,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Digital"/>
-        <Class IRI="#Photography"/>
+        <Class IRI="#Photograph"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Diptych"/>
-        <Class IRI="#ArtPiece"/>
+        <Class IRI="#ComposedArtPiece"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Fresco"/>
@@ -186,6 +628,10 @@
     <SubClassOf>
         <Class IRI="#MarbleSculpture"/>
         <Class IRI="#Sculpture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Masterpiece"/>
+        <Class IRI="#ArtPiece"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MediumMuseum"/>
@@ -220,12 +666,12 @@
         <Class IRI="#Painting"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#PhotographicMaterial"/>
-        <Class IRI="#Material"/>
+        <Class IRI="#Photograph"/>
+        <Class IRI="#ArtPiece"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Photography"/>
-        <Class IRI="#ArtPiece"/>
+        <Class IRI="#PhotographicMaterial"/>
+        <Class IRI="#Material"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Pigment"/>
@@ -237,15 +683,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Polyptych"/>
-        <Class IRI="#ArtPiece"/>
+        <Class IRI="#ComposedArtPiece"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PolyvalentMuseum"/>
         <Class IRI="#Museum"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#PopularAuthor"/>
-        <Class IRI="#Author"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SculptingMaterial"/>
@@ -265,7 +707,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Triptych"/>
-        <Class IRI="#ArtPiece"/>
+        <Class IRI="#ComposedArtPiece"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#WatercolorPainting"/>
@@ -276,9 +718,806 @@
         <Class IRI="#Sculpture"/>
     </SubClassOf>
     <ClassAssertion>
+        <Class IRI="#Pigment"/>
+        <NamedIndividual IRI="#Acrylic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AcrylicPainting"/>
+        <NamedIndividual IRI="#Antiluna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BaseMaterial"/>
+        <NamedIndividual IRI="#Canvas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SculptingMaterial"/>
+        <NamedIndividual IRI="#Clay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Painting"/>
+        <NamedIndividual IRI="#Diptico_de_la_Anunciacion_Arcangel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Painting"/>
+        <NamedIndividual IRI="#Diptico_de_la_Anunciacion_Virgen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OilPainting"/>
+        <NamedIndividual IRI="#Dos_viejos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mural"/>
+        <NamedIndividual IRI="#Dos_viejos_comiendo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mural"/>
+        <NamedIndividual IRI="#Duelo_a_garrotazos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OilPainting"/>
+        <NamedIndividual IRI="#Duelo_a_garrotazos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PaintingOnWood"/>
+        <NamedIndividual IRI="#Fantasía_moral"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Masterpiece"/>
+        <NamedIndividual IRI="#Hotel_room"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pigment"/>
+        <NamedIndividual IRI="#Ink"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OilPainting"/>
+        <NamedIndividual IRI="#La_extracción_de_la_piedra_de_la_locura"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PaintingOnWood"/>
+        <NamedIndividual IRI="#La_extracción_de_la_piedra_de_la_locura"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SculptingMaterial"/>
+        <NamedIndividual IRI="#Marble"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Masterpiece"/>
+        <NamedIndividual IRI="#Neptuno_135AC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pigment"/>
+        <NamedIndividual IRI="#Oil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BaseMaterial"/>
+        <NamedIndividual IRI="#Paper"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Masterpiece"/>
+        <NamedIndividual IRI="#Paseo_a_la_orilla_del_mar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OilPainting"/>
+        <NamedIndividual IRI="#Perros_en_traílla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OnCanvas"/>
+        <NamedIndividual IRI="#Perros_en_traílla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SculptingMaterial"/>
+        <NamedIndividual IRI="#Plaster"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BaseMaterial"/>
+        <NamedIndividual IRI="#PlasterWall"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#ArtMovement"/>
         <NamedIndividual IRI="#Renaissance"/>
     </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Masterpiece"/>
+        <NamedIndividual IRI="#Saturno_devorando_a_su_hijo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mural"/>
+        <NamedIndividual IRI="#Saturno_devorando_a_su_hijo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OilPainting"/>
+        <NamedIndividual IRI="#Saturno_devorando_a_su_hijo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SculptingMaterial"/>
+        <NamedIndividual IRI="#Stone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Masterpiece"/>
+        <NamedIndividual IRI="#The_Garden_of_Earthly_Delights"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OilPainting"/>
+        <NamedIndividual IRI="#The_Garden_of_Earthly_Delights_EARTH"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PaintingOnWood"/>
+        <NamedIndividual IRI="#The_Garden_of_Earthly_Delights_EARTH"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OilPainting"/>
+        <NamedIndividual IRI="#The_Garden_of_Earthly_Delights_EDEN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PaintingOnWood"/>
+        <NamedIndividual IRI="#The_Garden_of_Earthly_Delights_EDEN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OilPainting"/>
+        <NamedIndividual IRI="#The_Garden_of_Earthly_Delights_HELL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PaintingOnWood"/>
+        <NamedIndividual IRI="#The_Garden_of_Earthly_Delights_HELL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BaseMaterial"/>
+        <NamedIndividual IRI="#Wall"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pigment"/>
+        <NamedIndividual IRI="#Watercolor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BaseMaterial"/>
+        <NamedIndividual IRI="#Wood"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SculptingMaterial"/>
+        <NamedIndividual IRI="#Wood"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PhotographicMaterial"/>
+        <NamedIndividual IRI="#photographic_film"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PhotographicMaterial"/>
+        <NamedIndividual IRI="#pixel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OilPainting"/>
+        <NamedIndividual IRI="#Árbol_seco_y_vista_lateral_de_la_Casa_Lombard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OnCanvas"/>
+        <NamedIndividual IRI="#Árbol_seco_y_vista_lateral_de_la_Casa_Lombard"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#createdBy"/>
+        <NamedIndividual IRI="#Antiluna"/>
+        <NamedIndividual IRI="#Pinot_Gallicio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExposedIn"/>
+        <NamedIndividual IRI="#Antiluna"/>
+        <NamedIndividual IRI="#Museo_Reina_Sofia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#createdBy"/>
+        <NamedIndividual IRI="#Autoretrato_sorolla"/>
+        <NamedIndividual IRI="#Sorolla"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExposedIn"/>
+        <NamedIndividual IRI="#Autoretrato_sorolla"/>
+        <NamedIndividual IRI="#Museo_Sorolla"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paintedOn"/>
+        <NamedIndividual IRI="#Autoretrato_sorolla"/>
+        <NamedIndividual IRI="#Canvas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paintedWith"/>
+        <NamedIndividual IRI="#Autoretrato_sorolla"/>
+        <NamedIndividual IRI="#Oil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#captureOn"/>
+        <NamedIndividual IRI="#Clotilde_y_su_nieto"/>
+        <NamedIndividual IRI="#photographic_film"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#createdBy"/>
+        <NamedIndividual IRI="#Clotilde_y_su_nieto"/>
+        <NamedIndividual IRI="#Anonymous"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExposedIn"/>
+        <NamedIndividual IRI="#Clotilde_y_su_nieto"/>
+        <NamedIndividual IRI="#Museo_Sorolla"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#composedBy"/>
+        <NamedIndividual IRI="#Diptico_de_la_Anunciacion"/>
+        <NamedIndividual IRI="#Diptico_de_la_Anunciacion_Arcangel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#composedBy"/>
+        <NamedIndividual IRI="#Diptico_de_la_Anunciacion"/>
+        <NamedIndividual IRI="#Diptico_de_la_Anunciacion_Virgen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#createdBy"/>
+        <NamedIndividual IRI="#Dome_In_Hermita_San_Antonio"/>
+        <NamedIndividual IRI="#Franciso_de_Goya"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExposedIn"/>
+        <NamedIndividual IRI="#Dome_In_Hermita_San_Antonio"/>
+        <NamedIndividual IRI="#Hermita_De_San_Antonio_De_La_Florida"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paintedOn"/>
+        <NamedIndividual IRI="#Dome_In_Hermita_San_Antonio"/>
+        <NamedIndividual IRI="#PlasterWall"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#createdBy"/>
+        <NamedIndividual IRI="#Dos_viejos"/>
+        <NamedIndividual IRI="#Franciso_de_Goya"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExposedIn"/>
+        <NamedIndividual IRI="#Dos_viejos"/>
+        <NamedIndividual IRI="#Museo_del_Prado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paintedOn"/>
+        <NamedIndividual IRI="#Dos_viejos"/>
+        <NamedIndividual IRI="#Wall"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#createdBy"/>
+        <NamedIndividual IRI="#Dos_viejos_comiendo"/>
+        <NamedIndividual IRI="#Franciso_de_Goya"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExposedIn"/>
+        <NamedIndividual IRI="#Dos_viejos_comiendo"/>
+        <NamedIndividual IRI="#Museo_del_Prado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paintedWith"/>
+        <NamedIndividual IRI="#Dos_viejos_comiendo"/>
+        <NamedIndividual IRI="#Oil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#captureOn"/>
+        <NamedIndividual IRI="#El_pintor_en_plena_faena"/>
+        <NamedIndividual IRI="#photographic_film"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#createdBy"/>
+        <NamedIndividual IRI="#El_pintor_en_plena_faena"/>
+        <NamedIndividual IRI="#Christian_Franzen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExposedIn"/>
+        <NamedIndividual IRI="#El_pintor_en_plena_faena"/>
+        <NamedIndividual IRI="#Museo_Sorolla"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#createdBy"/>
+        <NamedIndividual IRI="#Elefante_Hermita_San_Baudelio"/>
+        <NamedIndividual IRI="#Anonymous"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExposedIn"/>
+        <NamedIndividual IRI="#Elefante_Hermita_San_Baudelio"/>
+        <NamedIndividual IRI="#Museo_del_Prado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paintedOn"/>
+        <NamedIndividual IRI="#Elefante_Hermita_San_Baudelio"/>
+        <NamedIndividual IRI="#PlasterWall"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#createdBy"/>
+        <NamedIndividual IRI="#Esclavo_agonizante"/>
+        <NamedIndividual IRI="#Yves_Clain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExposedIn"/>
+        <NamedIndividual IRI="#Esclavo_agonizante"/>
+        <NamedIndividual IRI="#Museo_Thyssen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sculptedWith"/>
+        <NamedIndividual IRI="#Esclavo_agonizante"/>
+        <NamedIndividual IRI="#Plaster"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#createdBy"/>
+        <NamedIndividual IRI="#Fantasía_moral"/>
+        <NamedIndividual IRI="#Hieronymus_Bosch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExposedIn"/>
+        <NamedIndividual IRI="#Fantasía_moral"/>
+        <NamedIndividual IRI="#Museo_del_Prado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paintedWith"/>
+        <NamedIndividual IRI="#Fantasía_moral"/>
+        <NamedIndividual IRI="#Oil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#createdBy"/>
+        <NamedIndividual IRI="#Figura_Eudald_Serra"/>
+        <NamedIndividual IRI="#Eudald_Serra"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExposedIn"/>
+        <NamedIndividual IRI="#Figura_Eudald_Serra"/>
+        <NamedIndividual IRI="#Museo_Reina_Sofia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sculptedWith"/>
+        <NamedIndividual IRI="#Figura_Eudald_Serra"/>
+        <NamedIndividual IRI="#Clay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#creates"/>
+        <NamedIndividual IRI="#Franciso_de_Goya"/>
+        <NamedIndividual IRI="#Duelo_a_garrotazos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#createdBy"/>
+        <NamedIndividual IRI="#Fresco1_In_Hermita_San_Antonio"/>
+        <NamedIndividual IRI="#Franciso_de_Goya"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExposedIn"/>
+        <NamedIndividual IRI="#Fresco1_In_Hermita_San_Antonio"/>
+        <NamedIndividual IRI="#Hermita_De_San_Antonio_De_La_Florida"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paintedOn"/>
+        <NamedIndividual IRI="#Fresco1_In_Hermita_San_Antonio"/>
+        <NamedIndividual IRI="#PlasterWall"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#createdBy"/>
+        <NamedIndividual IRI="#Fresco2_In_Hermita_San_Antonio"/>
+        <NamedIndividual IRI="#Franciso_de_Goya"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExposedIn"/>
+        <NamedIndividual IRI="#Fresco2_In_Hermita_San_Antonio"/>
+        <NamedIndividual IRI="#Hermita_De_San_Antonio_De_La_Florida"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paintedOn"/>
+        <NamedIndividual IRI="#Fresco2_In_Hermita_San_Antonio"/>
+        <NamedIndividual IRI="#PlasterWall"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#createdBy"/>
+        <NamedIndividual IRI="#Fresco4_In_Hermita_San_Antonio"/>
+        <NamedIndividual IRI="#Franciso_de_Goya"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExposedIn"/>
+        <NamedIndividual IRI="#Fresco4_In_Hermita_San_Antonio"/>
+        <NamedIndividual IRI="#Hermita_De_San_Antonio_De_La_Florida"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paintedOn"/>
+        <NamedIndividual IRI="#Fresco4_In_Hermita_San_Antonio"/>
+        <NamedIndividual IRI="#PlasterWall"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#composedBy"/>
+        <NamedIndividual IRI="#Group_of_Frescos_In_Hermita_San_Antonio"/>
+        <NamedIndividual IRI="#Dome_In_Hermita_San_Antonio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#composedBy"/>
+        <NamedIndividual IRI="#Group_of_Frescos_In_Hermita_San_Antonio"/>
+        <NamedIndividual IRI="#Fresco1_In_Hermita_San_Antonio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#composedBy"/>
+        <NamedIndividual IRI="#Group_of_Frescos_In_Hermita_San_Antonio"/>
+        <NamedIndividual IRI="#Fresco2_In_Hermita_San_Antonio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#composedBy"/>
+        <NamedIndividual IRI="#Group_of_Frescos_In_Hermita_San_Antonio"/>
+        <NamedIndividual IRI="#Fresco4_In_Hermita_San_Antonio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#createdBy"/>
+        <NamedIndividual IRI="#Group_of_Frescos_In_Hermita_San_Antonio"/>
+        <NamedIndividual IRI="#Franciso_de_Goya"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExposedIn"/>
+        <NamedIndividual IRI="#Group_of_Frescos_In_Hermita_San_Antonio"/>
+        <NamedIndividual IRI="#Hermita_De_San_Antonio_De_La_Florida"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paintedOn"/>
+        <NamedIndividual IRI="#Group_of_Frescos_In_Hermita_San_Antonio"/>
+        <NamedIndividual IRI="#PlasterWall"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#createdBy"/>
+        <NamedIndividual IRI="#Hotel_room"/>
+        <NamedIndividual IRI="#Edward_Hopper"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExposedIn"/>
+        <NamedIndividual IRI="#Hotel_room"/>
+        <NamedIndividual IRI="#Museo_Thyssen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paintedOn"/>
+        <NamedIndividual IRI="#Hotel_room"/>
+        <NamedIndividual IRI="#Canvas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paintedWith"/>
+        <NamedIndividual IRI="#Hotel_room"/>
+        <NamedIndividual IRI="#Oil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#createdBy"/>
+        <NamedIndividual IRI="#La_Cucifixión"/>
+        <NamedIndividual IRI="#Bernardo_Daddi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExposedIn"/>
+        <NamedIndividual IRI="#La_Cucifixión"/>
+        <NamedIndividual IRI="#Museo_Thyssen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paintedOn"/>
+        <NamedIndividual IRI="#La_Cucifixión"/>
+        <NamedIndividual IRI="#Wood"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#createdBy"/>
+        <NamedIndividual IRI="#La_extracción_de_la_piedra_de_la_locura"/>
+        <NamedIndividual IRI="#Hieronymus_Bosch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExposedIn"/>
+        <NamedIndividual IRI="#La_extracción_de_la_piedra_de_la_locura"/>
+        <NamedIndividual IRI="#Museo_del_Prado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#createdBy"/>
+        <NamedIndividual IRI="#Mesa_de_los_Pecados_Capitales"/>
+        <NamedIndividual IRI="#Hieronymus_Bosch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExposedIn"/>
+        <NamedIndividual IRI="#Mesa_de_los_Pecados_Capitales"/>
+        <NamedIndividual IRI="#Museo_del_Prado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paintedOn"/>
+        <NamedIndividual IRI="#Mesa_de_los_Pecados_Capitales"/>
+        <NamedIndividual IRI="#Wood"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paintedWith"/>
+        <NamedIndividual IRI="#Mesa_de_los_Pecados_Capitales"/>
+        <NamedIndividual IRI="#Oil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#exposes"/>
+        <NamedIndividual IRI="#Museo_del_Prado"/>
+        <NamedIndividual IRI="#Duelo_a_garrotazos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#createdBy"/>
+        <NamedIndividual IRI="#Neptuno_135AC"/>
+        <NamedIndividual IRI="#Anonymous"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExposedIn"/>
+        <NamedIndividual IRI="#Neptuno_135AC"/>
+        <NamedIndividual IRI="#Museo_del_Prado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sculptedWith"/>
+        <NamedIndividual IRI="#Neptuno_135AC"/>
+        <NamedIndividual IRI="#Marble"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#createdBy"/>
+        <NamedIndividual IRI="#Nuestra_señora_anunciacion"/>
+        <NamedIndividual IRI="#Anonymous"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExposedIn"/>
+        <NamedIndividual IRI="#Nuestra_señora_anunciacion"/>
+        <NamedIndividual IRI="#Museo_Thyssen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sculptedWith"/>
+        <NamedIndividual IRI="#Nuestra_señora_anunciacion"/>
+        <NamedIndividual IRI="#Wood"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#createdBy"/>
+        <NamedIndividual IRI="#Paseo_a_la_orilla_del_mar"/>
+        <NamedIndividual IRI="#Sorolla"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExposedIn"/>
+        <NamedIndividual IRI="#Paseo_a_la_orilla_del_mar"/>
+        <NamedIndividual IRI="#Museo_Sorolla"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paintedOn"/>
+        <NamedIndividual IRI="#Paseo_a_la_orilla_del_mar"/>
+        <NamedIndividual IRI="#Canvas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paintedWith"/>
+        <NamedIndividual IRI="#Paseo_a_la_orilla_del_mar"/>
+        <NamedIndividual IRI="#Oil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#createdBy"/>
+        <NamedIndividual IRI="#Perros_en_traílla"/>
+        <NamedIndividual IRI="#Franciso_de_Goya"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExposedIn"/>
+        <NamedIndividual IRI="#Perros_en_traílla"/>
+        <NamedIndividual IRI="#Museo_del_Prado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#createdBy"/>
+        <NamedIndividual IRI="#Red_clouds"/>
+        <NamedIndividual IRI="#Emil_Nolde"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExposedIn"/>
+        <NamedIndividual IRI="#Red_clouds"/>
+        <NamedIndividual IRI="#Museo_Thyssen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paintedOn"/>
+        <NamedIndividual IRI="#Red_clouds"/>
+        <NamedIndividual IRI="#Paper"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paintedWith"/>
+        <NamedIndividual IRI="#Red_clouds"/>
+        <NamedIndividual IRI="#Watercolor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#createdBy"/>
+        <NamedIndividual IRI="#Rey_Godo"/>
+        <NamedIndividual IRI="#Anonymous"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExposedIn"/>
+        <NamedIndividual IRI="#Rey_Godo"/>
+        <NamedIndividual IRI="#Museo_del_Prado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sculptedWith"/>
+        <NamedIndividual IRI="#Rey_Godo"/>
+        <NamedIndividual IRI="#Stone"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#createdBy"/>
+        <NamedIndividual IRI="#Saturno_devorando_a_su_hijo"/>
+        <NamedIndividual IRI="#Franciso_de_Goya"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#composedBy"/>
+        <NamedIndividual IRI="#The_Garden_of_Earthly_Delights"/>
+        <NamedIndividual IRI="#The_Garden_of_Earthly_Delights_EARTH"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#composedBy"/>
+        <NamedIndividual IRI="#The_Garden_of_Earthly_Delights"/>
+        <NamedIndividual IRI="#The_Garden_of_Earthly_Delights_EDEN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#composedBy"/>
+        <NamedIndividual IRI="#The_Garden_of_Earthly_Delights"/>
+        <NamedIndividual IRI="#The_Garden_of_Earthly_Delights_HELL"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#createdBy"/>
+        <NamedIndividual IRI="#The_Garden_of_Earthly_Delights"/>
+        <NamedIndividual IRI="#Hieronymus_Bosch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExposedIn"/>
+        <NamedIndividual IRI="#The_Garden_of_Earthly_Delights"/>
+        <NamedIndividual IRI="#Museo_del_Prado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#createdBy"/>
+        <NamedIndividual IRI="#The_Garden_of_Earthly_Delights_EARTH"/>
+        <NamedIndividual IRI="#Hieronymus_Bosch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExposedIn"/>
+        <NamedIndividual IRI="#The_Garden_of_Earthly_Delights_EARTH"/>
+        <NamedIndividual IRI="#Museo_del_Prado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#createdBy"/>
+        <NamedIndividual IRI="#The_Garden_of_Earthly_Delights_EDEN"/>
+        <NamedIndividual IRI="#Hieronymus_Bosch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExposedIn"/>
+        <NamedIndividual IRI="#The_Garden_of_Earthly_Delights_EDEN"/>
+        <NamedIndividual IRI="#Museo_del_Prado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#createdBy"/>
+        <NamedIndividual IRI="#The_Garden_of_Earthly_Delights_HELL"/>
+        <NamedIndividual IRI="#Hieronymus_Bosch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExposedIn"/>
+        <NamedIndividual IRI="#The_Garden_of_Earthly_Delights_HELL"/>
+        <NamedIndividual IRI="#Museo_del_Prado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#createdBy"/>
+        <NamedIndividual IRI="#This_smells_of_magic"/>
+        <NamedIndividual IRI="#Franciso_de_Goya"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExposedIn"/>
+        <NamedIndividual IRI="#This_smells_of_magic"/>
+        <NamedIndividual IRI="#Museo_del_Prado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paintedOn"/>
+        <NamedIndividual IRI="#This_smells_of_magic"/>
+        <NamedIndividual IRI="#Paper"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paintedWith"/>
+        <NamedIndividual IRI="#This_smells_of_magic"/>
+        <NamedIndividual IRI="#Ink"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#createdBy"/>
+        <NamedIndividual IRI="#Venus_Bandinelli"/>
+        <NamedIndividual IRI="#Bandinelli"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExposedIn"/>
+        <NamedIndividual IRI="#Venus_Bandinelli"/>
+        <NamedIndividual IRI="#Museo_del_Prado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sculptedWith"/>
+        <NamedIndividual IRI="#Venus_Bandinelli"/>
+        <NamedIndividual IRI="#Bronze"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#createdBy"/>
+        <NamedIndividual IRI="#Árbol_seco_y_vista_lateral_de_la_Casa_Lombard"/>
+        <NamedIndividual IRI="#Edward_Hopper"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExposedIn"/>
+        <NamedIndividual IRI="#Árbol_seco_y_vista_lateral_de_la_Casa_Lombard"/>
+        <NamedIndividual IRI="#Museo_Thyssen"/>
+    </ObjectPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#composedBy"/>
+        <ObjectProperty IRI="#composes"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#createdBy"/>
+        <ObjectProperty IRI="#creates"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#exposes"/>
+        <ObjectProperty IRI="#isExposedIn"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#isExposedIn"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#captureOn"/>
+        <Class IRI="#Photograph"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#composedBy"/>
+        <Class IRI="#ArtPiece"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contains"/>
+        <Class IRI="#ArtPiece"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#createdBy"/>
+        <Class IRI="#ArtPiece"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#creates"/>
+        <Class IRI="#Author"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#exposes"/>
+        <Class IRI="#Museum"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isExposedIn"/>
+        <Class IRI="#ArtPiece"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#paintedOn"/>
+        <Class IRI="#Painting"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#paintedWith"/>
+        <Class IRI="#Painting"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#sculptedWith"/>
+        <Class IRI="#Sculpture"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#captureOn"/>
+        <Class IRI="#PhotographicMaterial"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#composedBy"/>
+        <Class IRI="#ArtPiece"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contains"/>
+        <Class IRI="#ArtPiece"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#createdBy"/>
+        <Class IRI="#Author"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#creates"/>
+        <Class IRI="#ArtPiece"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#exposes"/>
+        <Class IRI="#ArtPiece"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isExposedIn"/>
+        <Class IRI="#Museum"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#paintedOn"/>
+        <Class IRI="#BaseMaterial"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#paintedWith"/>
+        <Class IRI="#Pigment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#sculptedWith"/>
+        <Class IRI="#SculptingMaterial"/>
+    </ObjectPropertyRange>
 </Ontology>
 
 
