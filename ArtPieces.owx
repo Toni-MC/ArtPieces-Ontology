@@ -19,9 +19,6 @@
         <Class IRI="#Analog"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ArtMovement"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#ArtPiece"/>
     </Declaration>
     <Declaration>
@@ -47,9 +44,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Digital"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Diptych"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Fresco"/>
@@ -109,9 +103,6 @@
         <Class IRI="#PlasterSculpture"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Polyptych"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#PolyvalentMuseum"/>
     </Declaration>
     <Declaration>
@@ -125,9 +116,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#StoneSculpture"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Triptych"/>
     </Declaration>
     <Declaration>
         <Class IRI="#WatercolorPainting"/>
@@ -328,9 +316,6 @@
         <NamedIndividual IRI="#Red_clouds"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Renaissance"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Rey_Godo"/>
     </Declaration>
     <Declaration>
@@ -424,23 +409,6 @@
         </ObjectMinCardinality>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="#DedicatedMuseum"/>
-        <ObjectUnionOf>
-            <ObjectAllValuesFrom>
-                <ObjectProperty IRI="#exposes"/>
-                <Class IRI="#Painting"/>
-            </ObjectAllValuesFrom>
-            <ObjectAllValuesFrom>
-                <ObjectProperty IRI="#exposes"/>
-                <Class IRI="#Photograph"/>
-            </ObjectAllValuesFrom>
-            <ObjectAllValuesFrom>
-                <ObjectProperty IRI="#exposes"/>
-                <Class IRI="#Sculpture"/>
-            </ObjectAllValuesFrom>
-        </ObjectUnionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
         <Class IRI="#Digital"/>
         <ObjectHasValue>
             <ObjectProperty IRI="#captureOn"/>
@@ -477,7 +445,7 @@
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#MediumMuseum"/>
-        <ObjectMinCardinality cardinality="6">
+        <ObjectMinCardinality cardinality="7">
             <ObjectProperty IRI="#exposes"/>
             <Class IRI="#ArtPiece"/>
         </ObjectMinCardinality>
@@ -526,28 +494,42 @@
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#PolyvalentMuseum"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#exposes"/>
-            <Class IRI="#Painting"/>
-        </ObjectSomeValuesFrom>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#PolyvalentMuseum"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#exposes"/>
-            <Class IRI="#Photograph"/>
-        </ObjectSomeValuesFrom>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#PolyvalentMuseum"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#exposes"/>
-            <Class IRI="#Sculpture"/>
-        </ObjectSomeValuesFrom>
+        <ObjectUnionOf>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#exposes"/>
+                    <Class IRI="#Painting"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#exposes"/>
+                    <Class IRI="#Photograph"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#exposes"/>
+                    <Class IRI="#Painting"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#exposes"/>
+                    <Class IRI="#Sculpture"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#exposes"/>
+                    <Class IRI="#Photograph"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#exposes"/>
+                    <Class IRI="#Sculpture"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectUnionOf>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#SmallMuseum"/>
-        <ObjectMinCardinality cardinality="5">
+        <ObjectMinCardinality cardinality="2">
             <ObjectProperty IRI="#exposes"/>
             <Class IRI="#ArtPiece"/>
         </ObjectMinCardinality>
@@ -608,10 +590,6 @@
     <SubClassOf>
         <Class IRI="#Digital"/>
         <Class IRI="#Photograph"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Diptych"/>
-        <Class IRI="#ComposedArtPiece"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Fresco"/>
@@ -682,10 +660,6 @@
         <Class IRI="#Sculpture"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Polyptych"/>
-        <Class IRI="#ComposedArtPiece"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#PolyvalentMuseum"/>
         <Class IRI="#Museum"/>
     </SubClassOf>
@@ -704,10 +678,6 @@
     <SubClassOf>
         <Class IRI="#StoneSculpture"/>
         <Class IRI="#Sculpture"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Triptych"/>
-        <Class IRI="#ComposedArtPiece"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#WatercolorPainting"/>
@@ -812,10 +782,6 @@
     <ClassAssertion>
         <Class IRI="#BaseMaterial"/>
         <NamedIndividual IRI="#PlasterWall"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#ArtMovement"/>
-        <NamedIndividual IRI="#Renaissance"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Masterpiece"/>
