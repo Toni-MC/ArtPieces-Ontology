@@ -820,14 +820,6 @@
         <NamedIndividual IRI="#The_Garden_of_Earthly_Delights_EDEN"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OilPainting"/>
-        <NamedIndividual IRI="#The_Garden_of_Earthly_Delights_HELL"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#PaintingOnWood"/>
-        <NamedIndividual IRI="#The_Garden_of_Earthly_Delights_HELL"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#BaseMaterial"/>
         <NamedIndividual IRI="#Wall"/>
     </ClassAssertion>
@@ -1343,6 +1335,16 @@
         <ObjectProperty IRI="#isExposedIn"/>
         <NamedIndividual IRI="#The_Garden_of_Earthly_Delights_HELL"/>
         <NamedIndividual IRI="#Museo_del_Prado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paintedOn"/>
+        <NamedIndividual IRI="#The_Garden_of_Earthly_Delights_HELL"/>
+        <NamedIndividual IRI="#Wood"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paintedWith"/>
+        <NamedIndividual IRI="#The_Garden_of_Earthly_Delights_HELL"/>
+        <NamedIndividual IRI="#Oil"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#createdBy"/>
